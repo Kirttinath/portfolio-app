@@ -1,10 +1,8 @@
 
 
-const ToogleButton = () => {
+const ToogleButton = ({setOpen}) => {
   return (
-    <button>
-      
-    </button>
+    <button onClick={() => setOpen(prev=>!prev)}>Button</button>
   )
 }
 
