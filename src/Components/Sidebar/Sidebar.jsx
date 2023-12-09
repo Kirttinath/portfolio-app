@@ -2,6 +2,7 @@ import "./Sidebar.scss"
 import ToogleButton from './ToogleButton/ToogleButton';
 import Links from './Links/Links';
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 
 const Sidebar = () => {
@@ -13,12 +14,12 @@ const Sidebar = () => {
     closed: 
   }
   return (
-    <div className="sidebar">
+    <motion.div className="sidebar">
       <div className="bg">
         <Links/>
       </div>
       <ToogleButton setOpen={setOpen}/>
-    </div>
+    </motion.div>
   )
 }
 
