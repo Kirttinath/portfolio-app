@@ -2,9 +2,7 @@ import React from 'react'
 
 const Links = () => {
   return (
-    <div>
-      
-    </div>
+    <div className='links'>Links</div>
   )
 }
 
