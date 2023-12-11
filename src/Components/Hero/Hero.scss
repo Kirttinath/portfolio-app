@@ -27,6 +27,7 @@
             }
             h1 {
                 font-size: 88px;
+                letter-spacing: 1px;
                 color: rgb(128, 0, 255);
                 font-family: 'Dancing Script', cursive;
             }
@@ -63,7 +64,7 @@
 
     .slidingTextContainer {
         position: absolute;
-        bottom: -30px;
+        bottom: 0px;
         width: 70%;
         font-weight: bold;
         font-size: 30vh;
