@@ -1,4 +1,6 @@
 import "./Parallax.scss";
+// import "../../../public/vidbg.mp4";
+
 
 const Parallax = ({ type }) => {
     return (
@@ -11,7 +13,9 @@ const Parallax = ({ type }) => {
             }}
         >
             <h1>{type === "services" ? "What I do?" : "What I did?"}</h1>
-            <div className="mountains"></div>
+            <div className="mountains">
+                {/* <video src="vidbg.mp4" autoPlay loop muted></video> */}
+            </div>
             <div className="planets"></div>
             <div className="stars"></div>
         </div>
