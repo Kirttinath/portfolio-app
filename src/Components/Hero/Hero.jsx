@@ -56,7 +56,7 @@ const Hero = () => {
           WebDeveloper Designer 
         </motion.div>
       <div className="imageContainer">
-        <img src="/me.png" alt="" />
+        <img src="/kme.png" alt="" />
       </div>
     </div>
   )
