@@ -1,10 +1,21 @@
+import { useRef } from "react";
 import "./Parallax.scss";
 // import "../../../public/vidbg.mp4";
-import {motion, useScroll} from "framer-motion";
+import {motion, useScroll, useTransform} from "framer-motion";
 
 const Parallax = ({ type }) => {
+
+    const ref = useRef();
+
+ const {scrollYprogress} = useScroll({
+    target:ref
+ });
+
+
+ const yBg = useTransform(scrollYprogress, [0,1], ["0%", "100%"])
     return (
         <div className="parallax"
+        ref={ref}
             style={{
                 background:
                     type === "services"
