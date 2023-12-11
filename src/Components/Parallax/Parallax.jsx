@@ -1,6 +1,6 @@
 import "./Parallax.scss";
 // import "../../../public/vidbg.mp4";
-
+import {motion, useScroll} from "framer-motion";
 
 const Parallax = ({ type }) => {
     return (
@@ -12,12 +12,11 @@ const Parallax = ({ type }) => {
                         : "linear-gradient(180deg, #111132, #505064)"
             }}
         >
-            <h1>{type === "services" ? "What I do?" : "What I did?"}</h1>
-            <div className="mountains">
-                {/* <video src="vidbg.mp4" autoPlay loop muted></video> */}
-            </div>
-            <div className="planets"></div>
-            <div className="stars"></div>
+            <motion.h1>{type === "services" ? "What I do?" : "What I did?"}</motion.h1>
+            <motion.div className="mountains">
+            </motion.div>
+            <motion.div className="planets"></motion.div>
+            <motion.div className="stars"></motion.div>
         </div>
     )
 }

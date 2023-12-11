@@ -16,6 +16,7 @@
         background-position: bottom;
         width: 100%;
         height: 100%;
+        z-index: 3;
         position: absolute;
     }
     .planets{
@@ -24,6 +25,7 @@
         background-position: bottom;
         width: 100%;
         height: 100%;
+        z-index: 2;
         position: absolute;
     }
     .stars{
@@ -32,6 +34,7 @@
         background-position: bottom;
         width: 100%;
         height: 100%;
+        z-index: 1;
         position: absolute;
     }
 }
