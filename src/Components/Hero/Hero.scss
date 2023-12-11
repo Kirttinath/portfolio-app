@@ -1,27 +1,45 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Miniver&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 .hero{
     height: calc(100vh - 100px);
     overflow: hidden;
     background: linear-gradient(180deg, #0c0c1d, #111132 );
     position: relative;
     
-
+    .wrapper{
+        max-width: 1000px;
+        height: 100%;
+        margin: auto;
+    }
 
     .imageContainer{
         height: 100%;
         position: absolute;
         top: 0;
         right: 0;
+        img{
+            height: 100%;
+        }
     }
     .textContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        img{
+            width: 50px;
+        }
         
         h2{
-            font-family: 'Miniver', cursive;
+            font-size: 30px;
+            letter-spacing: 10px;
+            color: purple;
+            font-family: 'Merriweather', serif;
         }
         h1{
-            font-family: 'Satisfy', cursive;
+            font-size: 88px;
+            font-family: 'Dancing Script', cursive;
         }
         
     }
