@@ -1,7 +1,11 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Miniver&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 .hero{
     height: calc(100vh - 100px);
     overflow: hidden;
     background: linear-gradient(180deg, #0c0c1d, #111132 );
+    position: relative;
     
 
 
@@ -10,5 +14,16 @@
         position: absolute;
         top: 0;
         right: 0;
+    }
+    .textContainer{
+        height: 100%;
+        display: flex;
+        h2{
+            font-family: 'Miniver', cursive;
+        }
+        h1{
+            font-family: 'Satisfy', cursive;
+        }
+        
     }
 }
