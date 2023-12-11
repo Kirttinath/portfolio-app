@@ -1,5 +1,4 @@
 import "./Parallax.scss";
-// import "../../../public/vidbg.mp4";
 import {motion} from "framer-motion";
 
 const Parallax = ({ type }) => {
