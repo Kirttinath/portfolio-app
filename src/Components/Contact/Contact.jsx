@@ -44,7 +44,7 @@ const Contact = () => {
     <>
     <motion.div ref={ref} className="contact" variants={variants} initial="initial" whileInView="animate">
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>Let&apos;s work Together</motion.h1>
+        <motion.h1 variants={variants}>Let&apos;s greet Together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
           <span>kirttinathojha000@gmail.com</span>
