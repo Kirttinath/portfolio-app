@@ -1,6 +1,5 @@
 import "./Contact.scss";
 import { motion } from "framer-motion";
-import contact from "../../../src/contact.svg"
 
 const variants = {
   initial: {
@@ -40,7 +39,7 @@ const Contact = () => {
       </motion.div>
       <div className="formContainer">
         <motion.div className="contactSvg" initial={{opacity:1}} whileInView={{opacity:0}} transition={{delay:3, duration:1}}>
-          <img src={contact} alt="" />
+          
           </motion.div>
         
         <motion.form initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:4, duration:1}}>
