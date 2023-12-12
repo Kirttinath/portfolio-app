@@ -14,19 +14,19 @@ const items = [
         id: 2,
         title: "Foody-Zone",
         img: "./food.png",
-        desc: "A React e-commerce project is a project that uses React to build the user interface for an e-commerce website or app. This could include features such as a product catalog, a shopping cart, and a checkout process.",
+        desc: "FoodyZone React project, I spearheaded the development of an immersive and user-friendly food-related application. Leveraging React's component-based architecture, I meticulously designed and implemented intuitive user interfaces"
     },
     {
         id: 3,
         title: "Weather-App",
         img: "./weather.png",
-        desc: "A React e-commerce project is a project that uses React to build the user interface for an e-commerce website or app. This could include features such as a product catalog, a shopping cart, and a checkout process.",
+        desc: "Integrating with a weather API, I implemented real-time data fetching and dynamic rendering, ensuring accurate and up-to-date information."
     },
     {
         id: 4,
         title: "Speech-to-Text",
         img: "./s2t.png",
-        desc: "A React e-commerce project is a project that uses React to build the user interface for an e-commerce website or app. This could include features such as a product catalog, a shopping cart, and a checkout process.",
+        desc: "The application embodies simplicity, making it an inclusive and versatile solution for users to effortlessly transcribe spoken content into written form.",
     },
 ];
 
