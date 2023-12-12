@@ -1,3 +1,4 @@
+import Contact from './Components/Contact/Contact';
 import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
 import Parallax from './Components/Parallax/Parallax';
@@ -17,7 +18,9 @@ const App = () => {
       <section><Services /></section>
       <section id='Portfolio'><Parallax type="portfolio" /></section>
       <Portfolio />
-      <section id='Contact'>Contact</section>
+      <section id='Contact'>
+        <Contact/>
+      </section>
     </div>
   );
 };
