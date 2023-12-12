@@ -66,8 +66,29 @@
     }
 
     .listContainer {
+        
         flex: 2;
+        display: flex;
+        max-width: 1366px;
+        margin: auto;
+        .box{
+            height: 300px;
+            border-radius: 20px;
+            padding: 70px;
+            column-gap: 5px;
+            border: 0.5px solid gray;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
 
+            button{
+
+                padding: 10px;
+                background-color: orange;
+                cursor: pointer;
+                border-radius: 30px;
+            }
+        }
     }
 
 }
