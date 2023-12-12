@@ -13,11 +13,11 @@ const Services = () => {
       <motion.div className="titleContainer">
         <div className="title">
             <img src="/people.webp" alt="" />
-            <h1><b>Unique Ideas</b></h1>
+            <h1><b>Unique </b>Ideas</h1>
 
         </div>
         <div className="title">
-            <h1><b>For Your</b>Buisness.</h1>
+            <h1><b>About My </b>Study.</h1>
             <button>What I do ?</button>
         </div>
       </motion.div>
