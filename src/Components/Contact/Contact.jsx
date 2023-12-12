@@ -18,7 +18,14 @@ const Contact = () => {
           <span>+91 8114888187</span>
         </div>
       </div>
-      <div className="formContainer"></div>
+      <div className="formContainer">
+        <form>
+          <input type="text" required placeholder="E-mail"/>
+          <input type="email" required placeholder=""/>
+          <textarea  rows={8} placeholder="Message" />
+          <button>Submit</button>
+        </form>
+      </div>
     </div>
   )
 }
