@@ -78,14 +78,19 @@
             flex-direction: column;
             border-radius: 20px;
             justify-content: space-between;
+            
 
+            h2{
+                color: rgb(247, 0, 255);
+            }
             button{
-
-                padding: 10px;
-                background-color: orange;
+                width: 80px;
+                padding: 8px;
+                background-color: rgb(168, 65, 101);
                 cursor: pointer;
                 border: none;
-                border-radius: 30px;
+                font-size: 18px;
+                border-radius: 25px;
             }
         }
     }
