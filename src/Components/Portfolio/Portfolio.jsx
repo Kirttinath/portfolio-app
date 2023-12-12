@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import "./Portfolio.scss";
-import { motion, useScroll, useSpring } from "framer-motion";
+import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 
 const items = [
@@ -8,33 +8,49 @@ const items = [
         id: 1,
         title: "E-Commerce",
         img: "./ecom.png",
-        des: "A React e-commerce project is a project that uses React to build the user interface for an e-commerce website or app. This could include features such as a product catalog, a shopping cart, and a checkout process.",
+        desc: "A React e-commerce project is a project that uses React to build the user interface for an e-commerce website or app. This could include features such as a product catalog, a shopping cart, and a checkout process.",
     },
     {
         id: 1,
         title: "E-Commerce",
         img: "./ecom.png",
-        des: "A React e-commerce project is a project that uses React to build the user interface for an e-commerce website or app. This could include features such as a product catalog, a shopping cart, and a checkout process.",
+        desc: "A React e-commerce project is a project that uses React to build the user interface for an e-commerce website or app. This could include features such as a product catalog, a shopping cart, and a checkout process.",
     },
     {
         id: 1,
         title: "E-Commerce",
         img: "./ecom.png",
-        des: "A React e-commerce project is a project that uses React to build the user interface for an e-commerce website or app. This could include features such as a product catalog, a shopping cart, and a checkout process.",
+        desc: "A React e-commerce project is a project that uses React to build the user interface for an e-commerce website or app. This could include features such as a product catalog, a shopping cart, and a checkout process.",
     },
     {
         id: 1,
         title: "E-Commerce",
         img: "./ecom.png",
-        des: "A React e-commerce project is a project that uses React to build the user interface for an e-commerce website or app. This could include features such as a product catalog, a shopping cart, and a checkout process.",
+        desc: "A React e-commerce project is a project that uses React to build the user interface for an e-commerce website or app. This could include features such as a product catalog, a shopping cart, and a checkout process.",
     },
 ];
 
 const Single = ({ item }) => {
+    const ref = useRef();
+
+    const { scrollYProgress } = useScroll({
+        target: ref,
+    });
+
+     const y= useTransform(scrollYProgress, [0,1], [-300,300])
+
 
     return (
-        <section>
-            {item.title}
+        <section ref={ref}>
+            <div className="container">
+                <img src={item.img} alt="" />
+                <motion.div style={{y}} className="textContainer">
+                    <h2>{item.title}</h2>
+                    <p>{item.desc}</p>
+                    <button>See App</button>
+
+                </motion.div>
+            </div>
         </section>
     );
 
@@ -61,7 +77,7 @@ const Portfolio = () => {
         <div className="portfolio" ref={ref}>
             <div className="progress">
                 <h1>Featured Works</h1>
-                <motion.div style={{ scaleX }} className="progressbar">
+                <motion.div style={{ scaleX }} className="progressBar">
 
                 </motion.div>
 
