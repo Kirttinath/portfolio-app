@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 
+
 const variants ={
   open:{
     transition:{
