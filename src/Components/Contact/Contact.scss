@@ -24,6 +24,14 @@
 
     .formContainer{
         flex: 1;
+        position: relative;
+
+
+        .contactSvg{
+            position: absolute;
+           background-color: aqua;
+           margin: auto;
+        }
 
         form{
             display: flex;
