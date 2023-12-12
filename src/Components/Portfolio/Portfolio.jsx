@@ -11,21 +11,21 @@ const items = [
         desc: "A React e-commerce project is a project that uses React to build the user interface for an e-commerce website or app. This could include features such as a product catalog, a shopping cart, and a checkout process.",
     },
     {
-        id: 1,
-        title: "E-Commerce",
-        img: "./ecom.png",
+        id: 2,
+        title: "Foody-Zone",
+        img: "./food.png",
         desc: "A React e-commerce project is a project that uses React to build the user interface for an e-commerce website or app. This could include features such as a product catalog, a shopping cart, and a checkout process.",
     },
     {
-        id: 1,
-        title: "E-Commerce",
-        img: "./ecom.png",
+        id: 3,
+        title: "Weather-App",
+        img: "./weather.png",
         desc: "A React e-commerce project is a project that uses React to build the user interface for an e-commerce website or app. This could include features such as a product catalog, a shopping cart, and a checkout process.",
     },
     {
-        id: 1,
-        title: "E-Commerce",
-        img: "./ecom.png",
+        id: 4,
+        title: "Speech-to-Text",
+        img: "./s2t.png",
         desc: "A React e-commerce project is a project that uses React to build the user interface for an e-commerce website or app. This could include features such as a product catalog, a shopping cart, and a checkout process.",
     },
 ];
@@ -38,7 +38,7 @@ const Single = ({ item }) => {
         //offset: ["start start", "end start"]
     });
 
-    const y = useTransform(scrollYProgress, [0, 1], [-350, 350])
+    const y = useTransform(scrollYProgress, [0, 1], [-500, 500])
 
 
     return (
