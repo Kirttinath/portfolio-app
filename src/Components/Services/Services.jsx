@@ -24,22 +24,22 @@ const Services = () => {
       <motion.div className="listContainer">
         <motion.div className="box" whileHover={{background:"lightgray", color:"black"}}>
             <h2>Branding</h2>
-            <p>kirtti</p>
+            <p>Lorem ipsum dolor sit amet. Ut nesciunt molestias in temporibus maxime non ullam consectetur qui voluptate velit eos dolor sunt sit voluptatum ipsa est numquam repudiandae. Vel consectetur consequatur aut velit illum hic nisi earum qui sint sunt et consequatur provident qui accusamus autem. Aut tenetur voluptatum et doloribus</p>
             <button>Go</button>
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray", color:"black"}}>
             <h2>Branding</h2>
-            <p>kirtti</p>
+            <p>Lorem ipsum dolor sit amet. Ut nesciunt molestias in temporibus maxime non ullam consectetur qui voluptate velit eos dolor sunt sit voluptatum ipsa est numquam repudiandae. Vel consectetur consequatur aut velit illum hic nisi earum qui sint sunt et consequatur provident qui accusamus autem. Aut tenetur voluptatum et doloribus </p>
             <button>Go</button>
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray", color:"black"}}>
             <h2>Branding</h2>
-            <p>kirtti</p>
+            <p>Lorem ipsum dolor sit amet. Ut nesciunt molestias in temporibus maxime non ullam consectetur qui voluptate velit eos dolor sunt sit voluptatum ipsa est numquam repudiandae. Vel consectetur consequatur aut velit illum hic nisi earum qui sint sunt et consequatur provident qui accusamus autem. Aut tenetur voluptatum et doloribus </p>
             <button>Go</button>
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray", color:"black"}}>
             <h2>Branding</h2>
-            <p>kirtti</p>
+            <p>Lorem ipsum dolor sit amet. Ut nesciunt molestias in temporibus maxime non ullam consectetur qui voluptate velit eos dolor sunt sit voluptatum ipsa est numquam repudiandae. Vel consectetur consequatur aut velit illum hic nisi earum qui sint sunt et consequatur provident qui accusamus autem. Aut tenetur voluptatum et doloribus </p>
             <button>Go</button>
         </motion.div>
       </motion.div>
