@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import './Services.scss';
+import './Projects.scss';
 import { color, motion, useInView } from 'framer-motion';
 
 
