@@ -27,12 +27,12 @@ const Services = () => {
   const isInView = useInView(ref, {margin:"-100px"});
   return (
     <motion.div 
-    className="services" 
+    className="projects" 
     variants={variants} 
     initial="initial" 
     //whileInView="animate"
     ref={ref}
-    animate={"animate"}
+    animate={isInView && "animate"}
     >
       <motion.div className="textContainer" variants={variants}>
 
