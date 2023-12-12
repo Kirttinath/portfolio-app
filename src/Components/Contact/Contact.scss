@@ -101,5 +101,9 @@
         align-items: center;
         font-size: 55px;
         font-family: 'Charmonman', cursive;
+        @include mobile {
+            font-size: 35px;
+            
+        }
     }
 }
