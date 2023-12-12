@@ -30,29 +30,7 @@ const items = [
     },
 ];
 
-const seePrj = (projectId) => {
-    return (
 
-        <div>
-            if(projectId === 1){
-                
-                window.location.href ="https://e-commerce-app-rose.vercel.app/"
-            }
-            else if(projectId === 2){
-                
-                window.location.href ="https://github.com/Kirttinath/foody-zone-app"
-            }
-            else if(projectId === 3){
-                
-                window.location.href ="https://weather-app-dun-eta.vercel.app/"
-            }
-            else{
-                
-                window.location.href ="https://text-to-speech-app-jet.vercel.app/"
-            }
-        </div>
-    );
-  };
 
 const Single = ({ item }) => {
     const ref = useRef();
@@ -61,8 +39,6 @@ const Single = ({ item }) => {
         target: ref,
         //offset: ["start start", "end start"]
     });
-   
-
     const y = useTransform(scrollYProgress, [0, 1], [-300, 300])
 
 
@@ -77,7 +53,7 @@ const Single = ({ item }) => {
                     <motion.div className="textContainer" style={{y}}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button onClick={() => seePrj(item.id)}>See App</button>
+                        <button>See App</button>
                     </motion.div>
                 </div>
             </div>
