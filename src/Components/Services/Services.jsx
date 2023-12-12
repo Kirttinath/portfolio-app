@@ -36,7 +36,7 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
 
-        <p>Know pain, Feel pain and Accept pain<br/>Those who do not know the pain will never understand true Peace</p>
+        <p>Know pain, Feel pain and Accept pain<br/>Those who don&apos;st know the pain will never understand true Peace</p>
         <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
